@@ -6,13 +6,15 @@ function App() {
   const doorMaterials = {
     D_SRF_DECOR_2:
       "https://threejs.org/examples/textures/hardwood2_diffuse.jpg",
-    D_SRF_DECOR: "#A52A2A",
+    D_SRF_DECOR: "https://threejs.org/examples/textures/hardwood2_diffuse.jpg",
+
     D_GASKET: "#1A1A1A",
     D_FR_COLOR: { value: "#B0E0E6", opacity: 0.5 },
     Body: "#8F7470",
     D_PRF_COLOR: "#4C4A48",
     Hinge: "#C0C0C0",
     HingeCuts: "#A9A9A9",
+    handleColor: "#A9A9A9",
   };
 
   return (
@@ -25,7 +27,7 @@ function App() {
       <directionalLight position={[5, 10, 7.5]} intensity={1} castShadow />
       {/* Door Model */}
       <DoorModels
-        doorName="P_SD_FH_AF40_40OCC"
+        doorName="P_SD_FH_AF40_40"
         materials={doorMaterials}
         totalWidth={1000}
         totalHeight={2400}
