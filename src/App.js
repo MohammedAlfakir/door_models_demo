@@ -26,12 +26,16 @@ function App() {
       <ambientLight intensity={0.5} />
       <directionalLight position={[5, 10, 7.5]} intensity={1} castShadow />
       {/* Door Model */}
+      {/* Axes Helper */}
+      <axesHelper size={10} color="red" />
+      {/* Grid Helper */}
+      <gridHelper size={10} color="green" />
       <DoorModels
         doorName="P_SD_FH_AF40_40"
         materials={doorMaterials}
-        totalWidth={1000}
-        totalHeight={2400}
-        totalDepth={120}
+        totalWidth={974}
+        totalHeight={2700}
+        totalDepth={109}
         doorPivot="left"
         doorOpening="out"
       />
