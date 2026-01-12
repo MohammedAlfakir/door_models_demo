@@ -4,8 +4,7 @@ import DoorModels from "door_models";
 
 function App() {
   const doorMaterials = {
-    D_SRF_DECOR_2:
-      "https://threejs.org/examples/textures/hardwood2_diffuse.jpg",
+    D_SRF_DECOR_2: "EG_H1181",
     D_SRF_DECOR: "https://threejs.org/examples/textures/hardwood2_diffuse.jpg",
 
     D_GASKET: "#1A1A1A",
