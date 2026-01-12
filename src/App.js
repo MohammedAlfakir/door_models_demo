@@ -38,6 +38,7 @@ function App() {
         totalDepth={109}
         doorPivot="left"
         doorOpening="out"
+        is2D={false}
       />
       <OrbitControls makeDefault />
     </Canvas>
